@@ -34,6 +34,7 @@ gulp.task('style', function(){
     .pipe(concat('libs.min.css'))
     .pipe(cssmin())
     .pipe(gulp.dest('app/css'))
+    .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('script', function(){
