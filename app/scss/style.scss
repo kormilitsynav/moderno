@@ -1176,7 +1176,7 @@ button.icon-sort{
   display: flex;
 }
 .product-one__content{
-  padding-right: 31px;
+  margin-right: 31px;
   max-width: 870px;
 }
 .product-one__images-inner{
@@ -1355,5 +1355,142 @@ button.icon-sort{
   font-size: 18px;
   @include f700;
 }
+.price__box{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.price__product{
+  font-size: 22px;
+  @include f500;
+  color: $red;
+  
+}
+.product__price{
+  button{
+    margin-bottom: 7px;
+    box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+    border: none;
+    background-color: $text;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+    display: block;
+    padding: 17px 5px 15px;
+    width: 100%;
+    cursor: pointer;
+    &::before{
+      font-weight: 400;
+      font-family: 'icomoon';
+      padding-right: 8px;
+    }
+  }
+  .icon-shopping-cart{
+    background-color: #42a5f5;
+  }
+  .icon-heart-o{
+    background-color: $green;
+  }
+}
+.product-author__box{
+  padding: 25px 0;
+  display: flex;
+}
+.author__avatar{
+  margin-right: 14px;
+}
+.author__info{
+
+}
+.author__name{
+  font-size: 18px;
+  color: $bg;
+  margin-bottom: 2px;
+}
+.author__info-link{
+  color: #707070;
+  font-size: 13px;
+  border: 1px solid #d5d5d5;
+  padding: 6px 9px 5px;
+}
+.author__awards-list{
+  li{
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    & + li {
+      margin-left: 4px;
+    }
+    &::before{
+      position: absolute;
+      top: 6px;
+      left: 0;
+      right: 0;
+    }
+  }
+  .icon-meh-o{
+    background-image: url(../images/awards/orange.png);
+    width: 34px;
+    height: 37px;
+  }
+  .icon-pagelines{
+    background-image: url(../images/awards/red.png);
+    width: 34px;
+    height: 37px;
+  }
+  .icon-bolt{
+    background-image: url(../images/awards/blue.png);
+    width: 34px;
+    height: 37px;
+  }
+  .icon-foursquare{
+    background-image: url(../images/awards/green.png);
+    width: 34px;
+    height: 37px;
+  }
+  .icon-yen{
+   background-image: url(../images/awards/grey.png);
+   width: 34px;
+   height: 37px;
+  }
+}
+.aside__item-sales{
+  padding-top: 23px;
+  font-size: 16px;
+  @include f300;
+  color: #707070;
+  span{
+    font-size: 20px;
+    @include f700;
+    color: #263238;
+    padding-right: 13px;
+    &::before{
+      content: "\f07a";
+      color: #a6b5bb;
+      padding-right: 20px;
+      font-family: 'icomoon';
+    }
+  }
+}
+.aside__item.sales-number{
+  padding-bottom: 25px;
+}
+.information__line{
+  font-size: 14px;
+  color: #70838d;
+  margin-top: 20px;
+  line-height: 18px;
+  span{
+    color: $bg;
+    @include f500;
+  }
+}
 //! product-one
 @import 'media';
+
+
+
