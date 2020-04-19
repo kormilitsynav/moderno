@@ -120,3 +120,64 @@ body{
     font-size: 14px;
   }
 }
+
+.add-user{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    content: "\f007";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
+.add-suitcase{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    content: "\f0f2";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
+.add-envelope-o{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    content: "\f003";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
+.add-comment-o{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    content: "\f0e5";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
+.add-group{
+  position: relative;
+  padding-left: 15px;
+  &::before{
+    content: "\f0c0";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 14px;
+  }
+}
