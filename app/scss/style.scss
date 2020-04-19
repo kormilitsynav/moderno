@@ -1983,6 +1983,28 @@ button.icon-sort{
     color: $bg;
   }
 }
+// .profile-settings{
+  .product-one__tabs.settings__tabs{
+    .tabs span{
+      font-family: 'Roboto', sans-serif !important;
+      font-weight: 500;
+      color: #707070;
+      position: relative;
+      &.active::before{
+        color: $green;
+      }
+      &::before{
+        top: 15px;
+        left: 27px;
+        font-size: 14px;
+        font-family: 'icomoon';
+        color: #d0d0d0;
+        position: absolute;
+      }
+    }
+  }
+// }
+
 .personal-box{
   background-color: #fff;
   padding: 35px 40px 25px;
