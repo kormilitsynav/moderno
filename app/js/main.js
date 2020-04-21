@@ -53,6 +53,8 @@ $(function(){
       return false;
     });
 
+    $('input[type="file"], select').styler();
+
   $(window).on("load", function () {
     if ($('.products__inner-box').length) {
         var mixer = mixitup('.products__inner-box');
